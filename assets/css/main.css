@@ -1,0 +1,82 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+.nav-wrapper {
+
+}
+
+nav{
+  z-index:999000;
+  position:fixed;
+  top:0;
+  left:0;
+  background-color:rgb(229, 89,87);
+  opacity:0.9;
+}
+
+.padding {
+  padding-left: 15px;
+}
+
+#parallax1 {
+  height: 75vh;
+}
+
+.parallax-container {
+  height: auto;
+  padding: 40px;
+  margin: 0px;
+}
+
+#projects {
+  padding-top: 64px;
+  background: red; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(red, yellow); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(red, yellow); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(red, yellow); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#000000, #000000, #02000e, #271e59, #4e4589, #7393c0); /* Standard syntax */
+}
+.jumbotron {
+  text-align: center;
+  min-width: 485px;
+}
+
+#aboutme {
+  background-color: rgba(84,110,122,0.75);
+  /*border: 1px solid white;*/
+  border-radius: 1%;
+  /*font-weight: 200;*/
+}
+
+.aboutme-text {
+  font-family: 'Roboto', sans-serif;
+  /*text-shadow: 1px 1px 2px grey;*/
+  padding: 10px;
+
+}
+h1 {
+  font-family: 'Roboto', sans-serif;
+  margin-top: 85px;
+  margin-bottom: 0px;
+  font-weight: 200;
+  /*text-shadow: 1px 1px 1px grey;*/
+}
+
+h4 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 200;
+  /*text-shadow: 1px 1px 1px grey;*/
+}
+
+.my-face {
+ /* margin-top: 20px;
+  margin-right: 5px;*/
+  max-width: 432px;
+  border-radius: 1%;
+}
+
+.row {
+  margin-bottom: 0px;
+}

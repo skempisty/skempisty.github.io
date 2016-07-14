@@ -1,11 +1,7 @@
 body {
   font-family: 'Open Sans', sans-serif;
-
 }
 
-.nav-wrapper {
-
-}
 
 nav{
   z-index:999000;
@@ -30,7 +26,7 @@ nav{
   margin: 0px;
 }
 
-#projects {
+.space-sky {
   padding-top: 64px;
   background: red; /* For browsers that do not support gradients */
   background: -webkit-linear-gradient(red, yellow); /* For Safari 5.1 to 6.0 */
@@ -43,7 +39,7 @@ nav{
   min-width: 485px;
 }
 
-#aboutme {
+.parallax-sub-container {
   background-color: rgba(84,110,122,0.75);
   /*border: 1px solid white;*/
   border-radius: 1%;
@@ -79,4 +75,11 @@ h4 {
 
 .row {
   margin-bottom: 0px;
+}
+
+.anchor {
+  display: block;
+  height: 64px; /*same height as header*/
+  margin-top: -64px; /*same height as header*/
+  visibility: hidden;
 }

@@ -1,0 +1,23 @@
+@media (max-width: 853px) {
+  #parallax1 h1, h4 {
+    color: #d5d5d1;
+    margin: 0 auto;
+  }
+
+  #parallax1 h1 {
+    position: relative;
+    left: 0px;
+  }
+
+  #parallax1 h4 {
+    position: relative;
+    left: 0px;
+  }
+}
+
+@media (max-width: 641px) {
+  #parallax1 h4 {
+    position: relative;
+    left: 0px;
+  }
+}

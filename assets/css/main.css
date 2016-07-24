@@ -1,24 +1,63 @@
+@font-face {
+  font-family: GroundControl;
+  src: url('../fonts/Farray.otf');
+}
+
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: GroundControl;
 }
 
-
-nav{
-  z-index:1;
-  top:0;
-  left:0;
-  background: rgba(30, 89,87,0.2);
+nav {
+  background: #ce9546;
 }
 
-
+hr {
+  margin: 5px auto 20px auto;
+}
 
 .padding {
   padding-left: 15px;
 }
 
+/* PARALLAX 1 --------------- */
+
 #parallax1 {
-  height: 75vh;
+  height: 300px;
+  font-family: GroundControl;
+  margin: 0 auto;
 }
+
+#parallax1 h1, h4 {
+  color: #d5d5d1;
+  margin: 0 auto;
+}
+
+#parallax1 h1 {
+  position: relative;
+  left: -100px;
+}
+
+#parallax1 h4 {
+  position: relative;
+  left: 100px;
+}
+
+#parallax1-contents {
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* --------------------------- */
+
+/* Projects ------------------ */
+
+.space-sky h3 {
+  color: #d5d5d1;
+}
+
+/* --------------------------- */
+
+
 
 .parallax-container {
   height: auto;
@@ -27,16 +66,12 @@ nav{
 }
 
 .space-sky {
-  padding-top: 64px;
-  background: red; /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(red, yellow); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(red, yellow); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(red, yellow); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(#000000, #000000, #02000e, #271e59, #4e4589, #7393c0); /* Standard syntax */
-}
-.jumbotron {
-  text-align: center;
-  min-width: 485px;
+  padding-top: 64 px;
+  background: black; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#000000, #000000, #02000e, #271e59, #4e4589, #7393c0, #aec9dc); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#000000, #000000, #02000e, #271e59, #4e4589, #7393c0, #aec9dc); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#000000, #000000, #02000e, #271e59, #4e4589, #7393c0, #aec9dc); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#000000, #000000, #02000e, #271e59, #4e4589, #7393c0, #aec9dc); /* Standard syntax */
 }
 
 .parallax-sub-container {
@@ -50,32 +85,8 @@ nav{
   font-family: 'Roboto', sans-serif;
   /*text-shadow: 1px 1px 2px grey;*/
   padding: 10px;
-
-}
-h1 {
-  font-family: 'Roboto', sans-serif;
-  margin-top: 85px;
-  margin-bottom: 0px;
-  font-weight: 200;
-  /*text-shadow: 1px 1px 1px grey;*/
 }
 
-h4 {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 200;
-  /*text-shadow: 1px 1px 1px grey;*/
-}
-
-.my-face {
- /* margin-top: 20px;
-  margin-right: 5px;*/
-  max-width: 432px;
-  border-radius: 1%;
-}
-
-.row {
-  margin-bottom: 0px;
-}
 
 .anchor {
   display: block;

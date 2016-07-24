@@ -4,13 +4,13 @@ body {
 
 
 nav{
-  z-index:999000;
-  position:fixed;
+  z-index:1;
   top:0;
   left:0;
-  background-color:rgb(229, 89,87);
-  opacity:0.9;
+  background: rgba(30, 89,87,0.2);
 }
+
+
 
 .padding {
   padding-left: 15px;

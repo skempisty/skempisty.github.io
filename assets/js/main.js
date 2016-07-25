@@ -1,20 +1,26 @@
 $(document).ready(function(){
   $('.parallax').parallax();
 
-  $('#collapsed-bar').on("mouseover", function() {
+
+// NAVBAR DROP DOWN BEHAVIOR --------------------------
+  $('#collapsed-bar').on("mouseover", function(e) {
     $('#collapsed-bar').css("background", "#ba863f");
-    $('.drop-down').css("display", "block");
+    $('.drop-down').slideDown();
   });
-  $('.drop-down').on("mouseover", function() {
+  $('#collapsed-bar').on("mouseleave", function(e) {
+    $('#collapsed-bar').css("background", "#ce9546");
+    if(! $(e.toElement).hasClass('drop-down') ) {
+      $('.drop-down').slideUp();
+    }
+  });
+  $('.drop-down').on("mouseover", function(e) {
     $('#collapsed-bar').css("background", "#ba863f");
-    $('.drop-down').css("display", "block");
   });
-  $('#collapsed-bar').on("mouseleave", function() {
+  $('.drop-down').on("mouseleave", function(e) {
     $('#collapsed-bar').css("background", "#ce9546");
-    $('.drop-down').css("display", "none");
+    if(! $(e.toElement).hasClass('bar') ) {
+      $('.drop-down').slideUp();
+    }
   });
-  $('.drop-down').on("mouseleave", function() {
-    $('#collapsed-bar').css("background", "#ce9546");
-    $('.drop-down').css("display", "none");
-  });
+// ----------------------------------------------------
 });

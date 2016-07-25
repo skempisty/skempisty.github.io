@@ -1,10 +1,15 @@
 @font-face {
-  font-family: GroundControl;
+  font-family: Farray;
   src: url('../fonts/Farray.otf');
 }
 
+@font-face {
+  font-family: zrnic;
+  src: url('../fonts/zrnic.ttf');
+}
+
 body {
-  font-family: GroundControl;
+  font-family: Farray;
   overflow-x: hidden;
 }
 
@@ -94,7 +99,7 @@ hr {
 
 #parallax1 {
   height: 300px;
-  font-family: GroundControl;
+  font-family: Farray;
   margin: 0 auto;
 }
 
@@ -120,10 +125,19 @@ hr {
 
 /* --------------------------- */
 
+/* PARALLAX 2 --------------- */
+
+/* --------------------------- */
+
+
+
 /* Projects ------------------ */
 
 .space-sky h3 {
   color: #d5d5d1;
+}
+.space-sky {
+  margin-bottom: 0px;
 }
 
 /* --------------------------- */
@@ -135,6 +149,34 @@ hr {
   padding: 40px;
   margin: 0px;
 }
+
+/* CARDS --------------------- */
+
+.card {
+  font-family: arial;
+  padding: 20px;
+  background: rgba(226, 221, 215, 0.7);
+  box-shadow: 5px 5px 5px black;
+}
+
+.card-title {
+  font-family: Farray;
+  text-shadow: 2px 2px white;
+}
+
+.card-content * {
+  color: #31529d;
+}
+
+.card-title a {
+  color: #31529d;
+}
+
+.card-image img {
+  height: 206.6px;
+}
+
+/* --------------------------- */
 
 .space-sky {
   padding-top: 64 px;

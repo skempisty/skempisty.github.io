@@ -5,7 +5,9 @@ $(document).ready(function(){
 // NAVBAR DROP DOWN BEHAVIOR --------------------------
   $('#collapsed-bar').on("mouseover", function(e) {
     $('#collapsed-bar').css("background", "#ba863f");
-    $('.drop-down').slideDown();
+    if(! $(e.fromElement).hasClass('drop-down') ) {
+      $('.drop-down').slideDown();
+    }
   });
   $('#collapsed-bar').on("mouseleave", function(e) {
     $('#collapsed-bar').css("background", "#ce9546");
@@ -18,7 +20,7 @@ $(document).ready(function(){
   });
   $('.drop-down').on("mouseleave", function(e) {
     $('#collapsed-bar').css("background", "#ce9546");
-    if(! $(e.toElement).hasClass('bar') ) {
+    if(! $(e.toElement).closest('ul').hasClass('bar') ) {
       $('.drop-down').slideUp();
     }
   });

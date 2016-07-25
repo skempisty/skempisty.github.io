@@ -126,7 +126,25 @@ hr {
 /* --------------------------- */
 
 /* PARALLAX 2 --------------- */
+#parallax2 .container div {
+  padding: 10px;
+  background: gray;
+  border-radius: 2px;
+}
 
+#parallax2 .container {
+
+
+}
+
+.aboutMe > img {
+  width: 30%;
+  float: left;
+}
+
+#parallax2 hr {
+  border: black 1px solid;
+}
 /* --------------------------- */
 
 

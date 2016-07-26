@@ -217,7 +217,7 @@ hr {
   background: -webkit-linear-gradient(#000000, #000000, #02000e, #271e59, #4e4589, #7393c0, #aec9dc); /* For Safari 5.1 to 6.0 */
   background: -o-linear-gradient(#000000, #000000, #02000e, #271e59, #4e4589, #7393c0, #aec9dc); /* For Opera 11.1 to 12.0 */
   background: -moz-linear-gradient(#000000, #000000, #02000e, #271e59, #4e4589, #7393c0, #aec9dc); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(#000000, #000000, #02000e, #271e59, #4e4589, #7393c0, #aec9dc); /* Standard syntax */
+  background: linear-gradient(#000000, #000000, #02000e, #271e59, #4e4589, #6184be, #7393c0, #aebad4); /* Standard syntax */
 }
 
 .parallax-sub-container {

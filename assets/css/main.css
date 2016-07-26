@@ -128,18 +128,28 @@ hr {
 /* PARALLAX 2 --------------- */
 #parallax2 .container div {
   padding: 10px;
-  background: gray;
+  /*background: rgba(226, 221, 215, 0.7);*/
   border-radius: 2px;
 }
 
-#parallax2 .container {
-
-
+#parallax2 .aboutMe {
+  background: rgba(226, 221, 215, 0.7);
+  box-shadow: 5px 5px 5px black;
 }
 
-.aboutMe > img {
+.aboutme-text {
+  font-weight: bold;
+  font-family: arial;
+}
+
+.aboutMe-img > img {
   width: 30%;
   float: left;
+  margin-right: 20px;
+  margin-bottom: 30px;
+  margin-top: 40px;
+  margin-left: 10px;
+  border-radius: 50%;
 }
 
 #parallax2 hr {
@@ -186,6 +196,11 @@ hr {
   color: #31529d;
 }
 
+.card-content p {
+  font-weight: bold;
+}
+
+
 .card-title a {
   color: #31529d;
 }
@@ -213,8 +228,6 @@ hr {
 }
 
 .aboutme-text {
-  font-family: 'Roboto', sans-serif;
-  /*text-shadow: 1px 1px 2px grey;*/
   padding: 10px;
 }
 

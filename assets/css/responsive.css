@@ -21,3 +21,16 @@
     left: 0px;
   }
 }
+
+@media (max-width: 605px) {
+  .aboutMe-img > img {
+    width: 50%;
+    float: none;
+    margin: 0 auto;
+    border-radius: 50%;
+  }
+
+  .aboutMe-img {
+    text-align: center;
+  }
+}

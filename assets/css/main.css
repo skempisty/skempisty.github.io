@@ -1,0 +1,294 @@
+@font-face {
+  font-family: Farray;
+  src: url('../fonts/FARRAY.otf');
+}
+
+@font-face {
+  font-family: zrnic;
+  src: url('../fonts/zrnic.ttf');
+}
+
+body {
+  font-family: Farray;
+  overflow-x: hidden;
+}
+
+nav {
+  background: #ce9546;
+}
+
+hr {
+  margin: 5px auto 20px auto;
+}
+
+.padding {
+  padding-left: 15px;
+}
+
+/* Nav ---------------------- */
+#name {
+  font-size: 150%;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#name:hover {
+  color:black;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+#full-bar a:hover {
+  color:black;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+#full-bar a {
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#collapsed-bar {
+  display: none;
+  margin-right: 5px;
+}
+
+#collapsed-bar a {
+  font-size: 150%;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#collapsed-bar li {
+  height: 56px;
+}
+
+#collapsed-bar:hover {
+  cursor: pointer;
+}
+
+#collapsed-bar a:hover {
+  color: black;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+#collapsed-bar li:hover {
+  background: #ce9546;
+}
+
+.drop-down {
+  position: fixed;
+  display: none;
+  width: 182.6px;
+  right: 5px;
+  top: 56px;
+  padding-top: 0px;
+  height: auto;
+  background: #ba863f;
+  text-align: center;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.drop-down hr {
+  width: 60%;
+}
+
+.drop-down li {
+  margin-bottom: 10px;
+}
+
+.drop-down a {
+  color:white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.drop-down a:hover {
+  color: black;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+/* --------------------------- */
+
+/* PARALLAX 1 --------------- */
+
+#parallax1 {
+  height: 300px;
+  font-family: Farray;
+  margin: 0 auto;
+}
+
+#parallax1 h1, h4 {
+  color: #d5d5d1;
+  margin: 0 auto;
+}
+
+#parallax1 h1 {
+  position: relative;
+  left: -100px;
+}
+
+#parallax1 h4 {
+  position: relative;
+  left: 100px;
+}
+
+#parallax1-contents {
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* --------------------------- */
+
+/* Portfolio ------------------ */
+
+.space-sky h3 {
+  color: #d5d5d1;
+}
+.space-sky {
+  margin-bottom: 0px;
+}
+
+/* --------------------------- */
+
+/* PARALLAX 2 --------------- */
+#parallax2 .container div {
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#parallax2 .aboutMe {
+  background: rgba(226, 221, 215, 0.7);
+  box-shadow: 5px 5px 5px black;
+}
+
+.aboutMe-header {
+  margin-top: 0px;
+}
+
+.aboutme-text {
+  font-weight: bold;
+  font-family: arial;
+}
+
+.aboutMe-img > img {
+  width: 30%;
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 30px;
+  margin-top: 40px;
+  margin-left: 10px;
+  border-radius: 50%;
+}
+
+#parallax2 hr {
+  border: black 1px solid;
+}
+/* --------------------------- */
+
+/* Contact ------------------ */
+
+.contact {
+  margin: 0 auto;
+
+}
+
+.contact hr {
+  border: black 1px solid;
+}
+
+
+
+
+/* --------------------------- */
+
+.parallax-container {
+  height: auto;
+  padding: 40px;
+  margin: 0px;
+}
+
+/* CARDS --------------------- */
+
+.project {
+  font-family: arial;
+  width: 100%;
+  padding: 20px;
+  margin: 10px auto;
+  border-radius: 10px;
+  background: rgba(226, 221, 215, 0.7);
+  box-shadow: 5px 5px 5px black;
+  /*height: auto;*/
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.project-title {
+  font-family: Farray;
+  text-shadow: 2px 2px white;
+  font-size: 200%;
+  /*width: 50%;*/
+}
+
+.project-content {
+  width: 50%;
+  order: 0;
+  margin-right: 10px;
+}
+
+.project-content * {
+  color: black;
+  /*margin: 0;*/
+}
+
+.project-content p {
+  font-weight: bold;
+}
+
+.project-title {
+  color: black;
+  /*width: 50%;*/
+}
+
+.project-title a {
+  color: black;
+}
+
+.project-image {
+  order: 1;
+  width: 45%;
+  /*height: 100%;*/
+  /*flex-grow: 1;*/
+}
+
+.project-image img {
+  width: 100%;
+  height: 90%;
+}
+
+/* --------------------------- */
+
+.space-sky {
+  padding-top: 64 px;
+  background: black; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#000000, #000000, #02000e, #271e59, #4e4589, #7393c0, #aec9dc); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#000000, #000000, #02000e, #271e59, #4e4589, #7393c0, #aec9dc); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#000000, #000000, #02000e, #271e59, #4e4589, #7393c0, #aec9dc); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#000000, #000000, #02000e, #271e59, #4e4589, #6184be, #7393c0, #aebad4); /* Standard syntax */
+}
+
+.parallax-sub-container {
+  background-color: rgba(84,110,122,0.75);
+  /*border: 1px solid white;*/
+  border-radius: 1%;
+  /*font-weight: 200;*/
+}
+
+.aboutme-text {
+  padding: 10px;
+}
+
+
+.anchor {
+  display: block;
+  height: 64px; /*same height as header*/
+  margin-top: -64px; /*same height as header*/
+  visibility: hidden;
+}

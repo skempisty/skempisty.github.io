@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>S T E P H E N K</title>
+
+  <!-- STYLE SHEETS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="stylesheet" href="/assets/css/responsive.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
+  <!-- JAVASCRIPT -->
+  <script src="https://code.jquery.com/jquery-2.2.4.js"   integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="   crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
+
+</head>
+<body>
+  <!-- NAV BAR -->
+  <div class="navbar-fixed">
+    <nav>
+      <div class="nav-wrapper">
+        <a href="#" class="padding" id="name">S T E P H E N K</a>
+        <ul id="full-bar" class="right">
+          <li><a href="#projects">Portfolio</a></li>
+          <li><a href="#aboutme">About Me</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a target="_blank" href="assets/pdf/stephen_resume.pdf" class="">Resume</a></li>
+        </ul>
+        <ul class="right bar" id="collapsed-bar">
+          <li><a href="#">Navigate<i class="material-icons right">arrow_drop_down</i></a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="drop-down right">
+      <hr>
+      <ul>
+        <li><a href="#projects">Portfolio</a></li>
+        <li><a href="#aboutme">About Me</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="assets/pdf/stephen_resume.pdf" class="">Resume</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- PARALLAX -->
+  <div id="parallax1" class="parallax-container valign-wrapper">
+    <div class='valign' id="parallax1-contents">
+      <div class="parallax"><img src="/assets/images/space_background.jpg"></div>
+      <h1>Stephen Kempisty</h1><br>
+      <hr>
+      <h4 id="title">Web Developer | Los Angeles</h4>
+    </div>
+  </div>
+
+  <!-- PROJECTS -->
+  <span class="anchor" id='projects'></span>
+  <div class="section row space-sky">
+
+    <div class="container">
+      <h3 class="header">Portfolio</h3>
+      <hr>
+      <div class="col s12 m12 l12">
+        <div class="project">
+          <div class="project-image">
+            <a href="http://skempisty.github.io/rocket_league_2d/">
+              <img src="assets/images/rocket_league_2d.png">
+            </a>
+          </div>
+          <div class="project-content">
+          <span class="project-title" id="project1-title"><a href="http://skempisty.github.io/rocket_league_2d/" class="">Rocket League 2D</a></span>
+            <p>
+            Rocket League 2D is a top down car soccer game. Built for
+            two player same screen play, Rocket League 2D uses collision
+             detection algorithms using vector calculus to determine
+              appropriate responses when interactions between on-screen
+               objects occur.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m12 l12">
+        <div class="project">
+          <div class="project-image">
+            <a href="https://quiet-lowlands-11979.herokuapp.com/">
+              <img src="assets/images/cioscreenshot.png">
+            </a>
+          </div>
+          <div class="project-content">
+            <span class="project-title"><a href="https://quiet-lowlands-11979.herokuapp.com/" class="">Check It Out!</a></span>
+            <p>
+            Check It Out! is a message board app built with Ruby on
+            Rails. Demonstrates full CRUD capabilities on RESTful
+            resources and nested RESTful resources using Active Record.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m12 l12">
+        <div class="project">
+          <div class="project-image">
+            <a href="http://frozen-meadow-17947.herokuapp.com/">
+              <img src="assets/images/wander_screenshot.png">
+            </a>
+          </div>
+          <div class="project-content">
+          <span class="project-title"><a href="http://frozen-meadow-17947.herokuapp.com/" class="">Wander</a></span>
+            <p>
+            Wander is an app that allows a user to turn their Flickr
+            albums into a map showing the location where each picture
+            was taken along with a graphical representation of the
+            journey taken while snapping photos on that trip. Wander
+            accesses Flickr’s API to grab a user’s Flickr albums, made
+            as efficient as possible by utilizing Oauth with Flickr.
+            When an album is selected, Wander extracts that album’s
+            photo URLs and EXIF location data to build a “trip.”
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m12 l12">
+        <div class="project">
+          <div class="project-image">
+            <a href="https://fierce-journey-62903.herokuapp.com/#/">
+              <img src="assets/images/brew_genius_screenshot.png">
+            </a>
+          </div>
+          <div class="project-content">
+          <span class="project-title"><a href="https://fierce-journey-62903.herokuapp.com/#/" class="">Brew Genius</a></span>
+            <p>
+            Brew Genius is an app that allows users to save a targeted
+            list of beers they find using BreweryDB’s API. Brew Genius
+            is built on the MEAN stack, with a front-end using Angular
+            1 creating a single page app. Keeping track of a logged in
+            user is handled by JSON web tokens, and all API requests
+            are done client side using AJAX.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <div class="col s12 m12 l12">
+          <div class="project">
+            <a href="https://github.com/skempisty">
+              <span class="project-title">More projects in development...</span>
+              <div class="project-content">
+                <p>Visit Stephen Kempisty on GitHub!</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ABOUT ME -->
+  <span class='anchor' id="aboutme"></span>
+  <div class="parallax-container" id="parallax2">
+    <div class="parallax"><img src="assets/images/sky_background2.jpg"></div>
+    <div class="container">
+      <h3 class="aboutMe-header">About Me</h3>
+      <hr>
+      <div class="valign-wrapper col s12 m12 l12">
+        <div class="parallax-sub-container valign aboutMe">
+          <div class="aboutMe-img">
+            <img src="assets/images/me.jpg" alt="Stephen Kempisty" class="">
+          </div>
+          <p class="aboutme-text">
+            I'm a Los Angeles based web developer with a solid
+            foundation in HTML, CSS, Javascript, Node.js, Ruby on Rails,
+             and the MEAN stack. I have a background in engineering,
+             working at Marine Corps Systems Command in Quantico, VA
+             for three years where I focused on technical writing, test
+             planning/execution, and acting as a technical advisor for
+             multiple project officers. In my off-time, I started to
+             teach myself  basic web technologies which revived the
+             enthusiasm I had found for coding in college. Once I moved
+             out to Los Angeles, I acted on that enthusiasm and started
+             at General Assembly to build up my skills in order to
+             become a professional web developer. I bring with me an
+             engineer's mindset, including a history of problem solving,
+              positive client interaction, and the ability to
+            effectively communicate technical concepts to non-technical
+            minded audiences.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- CONTACT -->
+  <span class="anchor" id='contact'></span>
+  <div class="contact container">
+    <h3 class="contact-header">Contact</h3>
+    <hr>
+    <div>
+      <div class="row">
+        <div class="col s12 m6">
+          <div class="project">
+            <div class="project-content">
+              <p class="project-title"></p>
+            </div>
+            <div class="project-action">
+              <a href="mailto:stephen.kempisty@gmail.com" class="">email</a>
+              <a href="http://github.com/skempisty" class="">git hub</a>
+            </div>
+          </div>
+        </div>
+     </div>
+    </div>
+  </div>
+  <!-- FOOTER -->
+  <footer class="pate-footer">
+    <div class="footer-copyright">
+      <div class="container">
+      </div>
+    </div>
+  </footer>
+  <!-- LINK JAVASCRIPT -->
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/responsive.js"></script>
+</body>
+</html>

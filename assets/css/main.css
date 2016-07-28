@@ -235,6 +235,10 @@ hr {
   color: black;
 }
 
+.project-image {
+  float: right;
+}
+
 .project-image img {
   width: 100%;
   height: 206px;

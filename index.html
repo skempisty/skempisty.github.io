@@ -26,7 +26,7 @@
           <li><a href="#projects">Portfolio</a></li>
           <li><a href="#aboutme">About Me</a></li>
           <li><a href="#contact">Contact</a></li>
-          <li><a href="assets/pdf/stephen_resume.pdf" class="">Resume</a></li>
+          <li><a target="_blank" href="assets/pdf/stephen_resume.pdf" class="">Resume</a></li>
         </ul>
         <ul class="right bar" id="collapsed-bar">
           <li><a href="#">Navigate<i class="material-icons right">arrow_drop_down</i></a></li>
@@ -63,61 +63,61 @@
       <h3 class="header">Portfolio</h3>
       <hr>
       <div class="col s12 m12 l6">
-        <div class="card">
-          <span class="card-title"><a href="http://skempisty.github.io/rocket_league_2d/" class="">Rocket League 2D</a></span>
+        <div class="project">
+          <span class="project-title" id="project1-title"><a href="http://skempisty.github.io/rocket_league_2d/" class="">Rocket League 2D</a></span>
           <br><br>
-          <div class="card-image">
+          <div class="project-image">
             <a href="http://skempisty.github.io/rocket_league_2d/">
               <img src="assets/images/rocket_league_2d.png">
             </a>
           </div>
-          <div class="card-content">
-            <p>Rocket League 2D is a built from scratch JavaScript game based on the popular game "Rocket League." Players must use their car to hit a ball into their opponent's goal. Best described as "car soccer."<br>
+          <div class="project-content">
+            <p>Rocket League 2D is a top down car soccer game. Built for two player same screen play, Rocket League 2D uses collision detection algorithms using vector calculus to determine appropriate responses when interactions between on-screen objects occur.<br>
             </p>
           </div>
         </div>
       </div>
       <div class="col s12 m12 l6">
-        <div class="card">
-          <span class="card-title"><a href="https://quiet-lowlands-11979.herokuapp.com/" class="">Check It Out!</a></span>
+        <div class="project">
+          <span class="project-title"><a href="https://quiet-lowlands-11979.herokuapp.com/" class="">Check It Out!</a></span>
           <br><br>
-          <div class="card-image">
+          <div class="project-image">
             <a href="https://quiet-lowlands-11979.herokuapp.com/">
               <img src="assets/images/cioscreenshot.png">
             </a>
           </div>
-          <div class="card-content">
-            <p>Rocket League 2D is a built from scratch JavaScript game based on the popular game "Rocket League." Players must use their car to hit a ball into their opponent's goal. Best described as "car soccer."<br>
+          <div class="project-content">
+            <p>Check It Out! is a message board app built with Ruby on Rails. Demonstrates full CRUD capabilities on RESTful resources and nested RESTful resources using Active Record.<br>
             </p>
           </div>
         </div>
       </div>
       <div class="col s12 m12 l6">
-        <div class="card">
-          <span class="card-title"><a href="http://frozen-meadow-17947.herokuapp.com/" class="">Wander</a></span>
+        <div class="project">
+          <span class="project-title"><a href="http://frozen-meadow-17947.herokuapp.com/" class="">Wander</a></span>
           <br><br>
-          <div class="card-image">
+          <div class="project-image">
             <a href="http://frozen-meadow-17947.herokuapp.com/">
               <img src="assets/images/wander_screenshot.png">
             </a>
           </div>
-          <div class="card-content">
-            <p>Rocket League 2D is a built from scratch JavaScript game based on the popular game "Rocket League." Players must use their car to hit a ball into their opponent's goal. Best described as "car soccer."<br>
+          <div class="project-content">
+            <p>Wander is an app that allows a user to turn their Flickr albums into a map showing the location where each picture was taken along with a graphical representation of the journey taken while snapping photos on that trip. Wander accesses Flickr’s API to grab a user’s Flickr albums, made as efficient as possible by utilizing Oauth with Flickr. When an album is selected, Wander extracts that album’s photo URLs and EXIF location data to build a “trip.”<br>
             </p>
           </div>
         </div>
       </div>
       <div class="col s12 m12 l6">
-        <div class="card">
-          <span class="card-title"><a href="https://fierce-journey-62903.herokuapp.com/#/" class="">Brew Genius</a></span>
+        <div class="project">
+          <span class="project-title"><a href="https://fierce-journey-62903.herokuapp.com/#/" class="">Brew Genius</a></span>
           <br><br>
-          <div class="card-image">
+          <div class="project-image">
             <a href="https://fierce-journey-62903.herokuapp.com/#/">
               <img src="assets/images/brew_genius_screenshot.png">
             </a>
           </div>
-          <div class="card-content">
-            <p>Rocket League 2D is a built from scratch JavaScript game based on the popular game "Rocket League." Players must use their car to hit a ball into their opponent's goal. Best described as "car soccer."<br>
+          <div class="project-content">
+            <p>Brew Genius is an app that allows users to save a targeted list of beers they find using BreweryDB’s API. Brew Genius is built on the MEAN stack, with a front-end using Angular 1 creating a single page app. Keeping track of a logged in user is handled by JSON web tokens, and all API requests are done client side using AJAX.<br>
             </p>
           </div>
         </div>
@@ -125,10 +125,10 @@
 
       <div>
         <div class="col s12 m12 l12">
-          <div class="card">
-            <div class="card-content">
+          <div class="project">
+            <div class="project-content">
               <a href="https://github.com/skempisty">
-                <span class="card-title">More projects in development...</span>
+                <span class="project-title">More projects in development...</span>
                 <p>Visit Stephen Kempisty on GitHub!</p>
               </a>
             </div>
@@ -143,7 +143,7 @@
   <div class="parallax-container" id="parallax2">
     <div class="parallax"><img src="assets/images/sky_background2.jpg"></div>
     <div class="container">
-      <h3 class="header">About Me</h3>
+      <h3 class="aboutMe-header">About Me</h3>
       <hr>
       <div class="valign-wrapper col s12 m12 l12">
         <div class="parallax-sub-container valign aboutMe">
@@ -174,26 +174,24 @@
   </div>
 
   <!-- CONTACT -->
-  <div class="section blue-grey lighten-5">
-    <div id="contact" class="container">
-      <h2 class="header blue-grey-text text-darken-3">Contact</h2>
-      <div>
-        <div class="row">
-          <div class="col s12 m4 offset-m1">
-            <div class="card blue-grey darken-1">
-              <div class="card-content white-text">
-                <!-- <span class="card-title">Card Title</span> -->
-                <p class="card-title blue-grey-text text-lighten-5">Feel free to contact me.</p>
-              </div>
-              <div class="card-action">
-                <a href="mailto:jedijake@me.com" class="blue-grey-text text-lighten-3">email</a>
-                <a href="http://github.com/yousaiditchewie" class="blue-grey-text text-lighten-3">git hub</a>
-                <a href="http://trello.com/jacoba11" class="blue-grey-text text-lighten-3">trello</a>
-              </div>
+  <span class="anchor" id='contact'></span>
+  <div class="contact container">
+    <h3 class="contact-header">Contact</h3>
+    <hr>
+    <div>
+      <div class="row">
+        <div class="col s12 m6">
+          <div class="project">
+            <div class="project-content">
+              <p class="project-title"></p>
+            </div>
+            <div class="project-action">
+              <a href="mailto:stephen.kempisty@gmail.com" class="">email</a>
+              <a href="http://github.com/skempisty" class="">git hub</a>
             </div>
           </div>
-       </div>
-      </div>
+        </div>
+     </div>
     </div>
   </div>
   <!-- FOOTER -->

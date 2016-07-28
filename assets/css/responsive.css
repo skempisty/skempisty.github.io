@@ -1,3 +1,9 @@
+@media (max-width: 1081px) {
+  #project1-title {
+    font-size: 175%;
+  }
+}
+
 @media (max-width: 853px) {
   #parallax1 h1, h4 {
     color: #d5d5d1;

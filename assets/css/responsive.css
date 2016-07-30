@@ -48,15 +48,16 @@
   }
 }
 
-@media (max-width: 537px) {
-  .header {
-    text-align: center;
+@media (max-width: 600px) {
+  .anchor {
+    height: 56px;
+    margin-top: -56px;
   }
 }
 
-@media (max-width: 408px) {
-  #project1-title {
-    font-size: 175%;
+@media (max-width: 537px) {
+  .header {
+    text-align: center;
   }
 }
 
@@ -74,3 +75,10 @@
     justify-content: center;
   }
 }
+
+@media (max-width: 408px) {
+  #project1-title {
+    font-size: 175%;
+  }
+}
+

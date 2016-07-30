@@ -59,3 +59,18 @@
     font-size: 175%;
   }
 }
+
+@media (max-width: 502px) {
+  .link:nth-child(even) {
+    display: none;
+  }
+
+  .link:nth-child(odd) {
+    margin: 0 20px;
+    width: 20%;
+  }
+
+  .contact-links {
+    justify-content: center;
+  }
+}

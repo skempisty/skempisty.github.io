@@ -14,7 +14,7 @@ body {
 }
 
 nav {
-  background: #ce9546;
+  background: black;
 }
 
 hr {
@@ -52,7 +52,7 @@ hr {
 
 #collapsed-bar a {
   font-size: 150%;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  background: black;
 }
 
 #collapsed-bar li {
@@ -61,6 +61,7 @@ hr {
 
 #collapsed-bar:hover {
   cursor: pointer;
+  border: white 1px solid;
 }
 
 #collapsed-bar a:hover {
@@ -69,21 +70,23 @@ hr {
 }
 
 #collapsed-bar li:hover {
-  background: #ce9546;
+  background: black;
 }
 
 .drop-down {
   position: fixed;
   display: none;
-  width: 182.6px;
+  width: 185px;
   right: 5px;
   top: 56px;
   padding-top: 0px;
   height: auto;
-  background: #ba863f;
+  background: black;
   text-align: center;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
+  border: 1px white solid;
+  border-top: none;
 }
 
 .drop-down hr {
@@ -165,14 +168,15 @@ hr {
 .aboutme-text {
   font-weight: bold;
   font-family: arial;
+  margin-top: 0;
 }
 
 .aboutMe-img > img {
   width: 30%;
   float: left;
   margin-right: 20px;
-  margin-bottom: 30px;
-  margin-top: 40px;
+  margin-bottom: 10px;
+  margin-top: 20px;
   margin-left: 10px;
   border-radius: 50%;
 }
@@ -180,31 +184,51 @@ hr {
 #parallax2 hr {
   border: black 1px solid;
 }
-/* --------------------------- */
+/* -------------------------- */
 
 /* Contact ------------------ */
 
 .contact {
   margin: 0 auto;
-
+  padding-bottom: 40px;
+  background: black;
+  color: white;
 }
 
+.contact-header {
+  color: white;
+}
 .contact hr {
-  border: black 1px solid;
+  border: white 1px solid;
 }
 
+.contact-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
 
+.link {
+  width: 10%;
+}
 
+.link * {
+  color: #d5d5d1;
+}
 
+.link:nth-child(even) {
+  margin: 0 30px 0 10px;
+  width: auto;
+}
+
+.link > a > img {
+  width: 100%;
+  height: 100%;
+}
 /* --------------------------- */
 
-.parallax-container {
-  height: auto;
-  padding: 40px;
-  margin: 0px;
-}
-
-/* CARDS --------------------- */
+/* Portfolio ----------------- */
 
 .project {
   font-family: arial;
@@ -233,7 +257,6 @@ hr {
 
 .project-content * {
   color: black;
-  /*margin: 0;*/
 }
 
 .project-content p {
@@ -275,6 +298,12 @@ hr {
   background: linear-gradient(#000000, #000000, #02000e, #271e59, #4e4589, #6184be, #7393c0, #aebad4); /* Standard syntax */
 }
 
+.parallax-container {
+  height: auto;
+  padding: 40px;
+  margin: 0px;
+}
+
 .parallax-sub-container {
   background-color: rgba(84,110,122,0.75);
   /*border: 1px solid white;*/
@@ -285,7 +314,6 @@ hr {
 .aboutme-text {
   padding: 10px;
 }
-
 
 .anchor {
   display: block;

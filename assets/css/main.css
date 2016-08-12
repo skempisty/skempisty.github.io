@@ -1,11 +1,8 @@
 @font-face {
   font-family: Farray;
-  src: url('../fonts/FARRAY.otf');
-}
-
-@font-face {
-  font-family: zrnic;
-  src: url('../fonts/zrnic.ttf');
+  src: url('../fonts/FARRAY.woff2') format('woff2'),
+       url('../fonts/FARRAY.woff') format('woff'),
+       url('../fonts/FARRAY.otf') format('opentype');
 }
 
 body {
@@ -275,7 +272,6 @@ hr {
   order: 1;
   width: 45%;
   height: auto;
-  border: ;
   display: flex;
   flex-direction: column;
   justify-content: center;

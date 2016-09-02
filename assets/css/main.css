@@ -177,6 +177,7 @@ hr {
   margin-top: 20px;
   margin-left: 10px;
   border-radius: 50%;
+  max-height: 278px;
 }
 
 #parallax2 hr {
